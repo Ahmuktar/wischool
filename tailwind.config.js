@@ -13,6 +13,7 @@ module.exports = {
         foreground: "var(--foreground)",
         primary: "#09B451",
         secondary: "#A709B4",
+        gray: "#989E99",
       },
       borderRadius: {
         lg: "var(--radius)",

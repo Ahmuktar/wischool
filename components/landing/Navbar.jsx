@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
             <div className="w-auto">
               <div className="hidden w-auto lg:block">
-                <div className="flex items-center">
+                <div className="flex items-center gap-10">
                   {websiteLinks.map((link) => {
                     const isActive = pathname === link.route;
                     return (
@@ -40,7 +40,7 @@ const Navbar = () => {
                         key={link.label}
                         href={link.route}
                         className={cn(
-                          "mr-14 font-semibold text-gray-400 hover:text-primary",
+                          "font-semibold text-gray-400 hover:text-primary",
                           { "text-primary": isActive }
                         )}
                       >
