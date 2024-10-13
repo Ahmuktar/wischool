@@ -14,6 +14,8 @@ module.exports = {
         primary: "#09B451",
         secondary: "#A709B4",
         gray: "#989E99",
+        gray1: "#333333",
+        dark: "#001B07",
       },
       borderRadius: {
         lg: "var(--radius)",

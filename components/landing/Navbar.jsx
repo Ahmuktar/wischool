@@ -13,7 +13,7 @@ const Navbar = () => {
   const pathname = usePathname();
   return (
     <>
-      <div className="sticky top-0 z-40 bg-background shadow-md">
+      <div className="sticky top-0 z-40 bg-white shadow-md">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-5">
             <div className="w-auto">
@@ -40,7 +40,7 @@ const Navbar = () => {
                         key={link.label}
                         href={link.route}
                         className={cn(
-                          "font-semibold text-gray-400 hover:text-primary",
+                          "font-semibold text-gray hover:text-primary",
                           { "text-primary": isActive }
                         )}
                       >

@@ -1,6 +1,10 @@
 import LandingPage from "@/components/landing/LandingPage";
-import Image from "next/image";
+import WebsiteLayout from "@/components/landing/WebsiteLayout";
 
 export default function Home() {
-  return <LandingPage />;
+  return (
+    <WebsiteLayout>
+      <LandingPage />
+    </WebsiteLayout>
+  );
 }
