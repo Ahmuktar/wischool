@@ -14,7 +14,7 @@ export default function NewsletterForm({ darkBg = false }) {
       <h3 className="text-2xl font-bold mt-2 mb-4">
         Subscribe to get latest updates
       </h3>
-      <form className="flex w-3/5 mx-auto">
+      <form className="flex lg:w-3/5 mx-auto">
         <input
           type="email"
           placeholder="Your Email"
